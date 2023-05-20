@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.garciacutillas;
 
 /**
@@ -11,6 +7,10 @@ package com.mycompany.garciacutillas;
 public class GarciaCutillas {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        System.out.println("Suma 10 y 3: " + Garcia.sumaEnteros(10, 3));
+        
+        Cutillas.muestraPantalla();
+        
     }
 }
